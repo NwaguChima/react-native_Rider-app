@@ -3,6 +3,7 @@ import Map from '../components/Map';
 import tw from 'twrnc';
 import NavigateCard from '../components/NavigateCard';
 import RideOptionsCard from '../components/RideOptionsCard';
+import { createNativeStackNavigator } from '@react-navigation/native-stack';
 
 const MapScreen = () => {
   const Stack = createNativeStackNavigator();
