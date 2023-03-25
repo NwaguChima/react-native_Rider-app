@@ -24,6 +24,26 @@ const HomeScreen = () => {
           placeholder="Where From?"
           nearbyPlacesAPI="GooglePlacesSearch"
           debounce={400}
+          minLength={2}
+          enablePoweredByContainer={false}
+          onPress={(data, details = null) => {
+            console.log('data->', data);
+            console.log('details->', details);
+          }}
+          fetchDetails={true}
+          returnKeyType={'search'}
+          query={{
+            key: GOOGLE_MAPS_APIKEY,
+            language: 'en',
+          }}
+          styles={{
+            container: {
+              flex: 0,
+            },
+            textInput: {
+              fontSize: 10,
+            },
+          }}
         />
 
         <NavOptions />
