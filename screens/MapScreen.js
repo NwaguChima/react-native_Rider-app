@@ -6,8 +6,6 @@ import tw from 'twrnc';
 const MapScreen = () => {
   return (
     <View>
-      <Text>MapScreen</Text>
-
       <View style={tw`h-1/2`}>
         <Map />
       </View>
@@ -17,5 +15,3 @@ const MapScreen = () => {
 };
 
 export default MapScreen;
-
-const styles = StyleSheet.create({});
