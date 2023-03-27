@@ -2,12 +2,12 @@ import { View, Text, StyleSheet, TouchableOpacity } from 'react-native';
 import { SafeAreaView } from 'react-native-safe-area-context';
 import { GooglePlacesAutocomplete } from 'react-native-google-places-autocomplete';
 import { GOOGLE_MAPS_APIKEY } from '@env';
-import tw from 'twrnc';
 import { useDispatch } from 'react-redux';
 import { setDestination } from '../slices/navSlice';
 import { useNavigation } from '@react-navigation/native';
 import NavFavorites from './NavFavorites';
 import { Icon } from 'react-native-elements';
+import tw from 'twrnc';
 
 const NavigateCard = () => {
   const dispatch = useDispatch();

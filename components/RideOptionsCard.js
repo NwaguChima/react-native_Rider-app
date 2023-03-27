@@ -4,9 +4,9 @@ import { FlatList } from 'react-native';
 import { View, Text, TouchableOpacity, Image } from 'react-native';
 import { Icon } from 'react-native-elements';
 import { SafeAreaView } from 'react-native-safe-area-context';
-import tw from 'twrnc';
 import { useSelector } from 'react-redux';
 import { selectTravelTimeInformation } from '../slices/navSlice';
+import tw from 'twrnc';
 
 const data = [
   {

@@ -1,5 +1,4 @@
 import React, { useEffect, useRef } from 'react';
-import { StyleSheet, Text, View } from 'react-native';
 import MapView, { Marker } from 'react-native-maps';
 import { useDispatch, useSelector } from 'react-redux';
 import {
@@ -94,5 +93,3 @@ const Map = () => {
 };
 
 export default Map;
-
-const styles = StyleSheet.create({});
