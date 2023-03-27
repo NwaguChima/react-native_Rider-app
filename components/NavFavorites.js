@@ -1,10 +1,4 @@
-import {
-  StyleSheet,
-  Text,
-  View,
-  FlatList,
-  TouchableOpacity,
-} from 'react-native';
+import { Text, View, FlatList, TouchableOpacity } from 'react-native';
 import { Icon } from 'react-native-elements';
 import tw from 'twrnc';
 
@@ -51,5 +45,3 @@ const NavFavorites = () => {
 };
 
 export default NavFavorites;
-
-const styles = StyleSheet.create({});
