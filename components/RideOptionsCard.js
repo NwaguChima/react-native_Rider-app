@@ -11,19 +11,19 @@ import tw from 'twrnc';
 const data = [
   {
     id: 'Uber-X-123',
-    title: 'Uber X',
+    title: 'Rider X',
     multiplier: 1,
     image: 'https://links.papareact.com/3pn',
   },
   {
     id: 'Uber-XL-456',
-    title: 'Uber XL',
+    title: 'Rider XL',
     multiplier: 1.2,
     image: 'https://links.papareact.com/5w8',
   },
   {
     id: 'Uber-LUX-789',
-    title: 'Uber LUX',
+    title: 'Rider LUX',
     multiplier: 1.75,
     image: 'https://links.papareact.com/7pf',
   },

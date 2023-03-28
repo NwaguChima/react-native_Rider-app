@@ -11,12 +11,14 @@ const data = [
     title: 'Get a ride',
     image: 'https://links.papareact.com/3pn',
     screen: 'MapScreen',
+    available: true,
   },
   {
     id: '456',
     title: 'Order Food',
     image: 'https://links.papareact.com/28w',
     screen: 'EatsScreen',
+    available: false,
   },
 ];
 
@@ -33,9 +35,9 @@ const NavOptions = () => {
         <TouchableOpacity
           onPress={() => navigation.navigate(item.screen)}
           style={tw`p-2 pl-6 pb-8 pt-4 bg-gray-200 m-2 w-40`}
-          disabled={!origin}
+          disabled={!origin || !item.available}
         >
-          <View style={tw`${!origin ? 'opacity-20' : null}`}>
+          <View style={tw`${!origin || !item.available ? 'opacity-20' : null}`}>
             <Image
               style={{ width: 120, height: 120, resizeMode: 'contain' }}
               source={{

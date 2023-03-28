@@ -21,7 +21,7 @@ const HomeScreen = () => {
             resizeMode: 'contain',
           }}
           source={{
-            uri: 'https://links.papareact.com/gzs',
+            uri: 'https://www.freepnglogos.com/uploads/cleveland-auto-show-car-logo-png-25.png',
           }}
         />
 
